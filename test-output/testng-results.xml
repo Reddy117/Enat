@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-26T16:00:22Z" name="Suite" finished-at="2023-01-26T16:00:38Z" duration-ms="15622">
+    <groups>
+    </groups>
+    <test started-at="2023-01-26T16:00:22Z" name="Test" finished-at="2023-01-26T16:00:38Z" duration-ms="15622">
+      <class name="com.orange.tests.AdminTest">
+        <test-method is-config="true" signature="baseMehtod()[pri:0, instance:com.orange.tests.AdminTest@5f354bcf]" started-at="2023-01-26T16:00:23Z" name="baseMehtod" finished-at="2023-01-26T16:00:32Z" duration-ms="8235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMehtod -->
+        <test-method signature="provideRights(java.util.HashMap)[pri:0, instance:com.orange.tests.AdminTest@5f354bcf]" started-at="2023-01-26T16:00:32Z" name="provideRights" data-provider="getAdminData" finished-at="2023-01-26T16:00:36Z" duration-ms="4343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=Enabled, UserName=New User, UserRole=Role, EmployeName=xx, EmployeeName=New Emp, Password=Password@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideRights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.tests.AdminTest@5f354bcf]" started-at="2023-01-26T16:00:36Z" name="tearDown" finished-at="2023-01-26T16:00:38Z" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orange.tests.AdminTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
