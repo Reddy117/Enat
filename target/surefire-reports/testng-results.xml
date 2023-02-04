@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23154" started-at="2023-01-31T16:29:21Z" finished-at="2023-01-31T16:29:44Z">
+  <suite started-at="2023-02-03T15:52:10Z" name="Suite" finished-at="2023-02-03T15:52:30Z" duration-ms="20612">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23154" started-at="2023-01-31T16:29:21Z" finished-at="2023-01-31T16:29:44Z">
+    <test started-at="2023-02-03T15:52:10Z" name="Test" finished-at="2023-02-03T15:52:30Z" duration-ms="20612">
       <class name="com.orange.tests.AdminTest">
-        <test-method status="PASS" signature="baseMehtod()[pri:0, instance:com.orange.tests.AdminTest@13c10b87]" name="baseMehtod" is-config="true" duration-ms="13323" started-at="2023-01-31T16:29:23Z" finished-at="2023-01-31T16:29:37Z">
+        <test-method is-config="true" signature="baseMehtod()[pri:0, instance:com.orange.tests.AdminTest@57576994]" started-at="2023-02-03T15:52:12Z" name="baseMehtod" finished-at="2023-02-03T15:52:24Z" duration-ms="11728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseMehtod -->
-        <test-method status="PASS" signature="provideRights(java.util.HashMap)[pri:0, instance:com.orange.tests.AdminTest@13c10b87]" name="provideRights" duration-ms="5326" started-at="2023-01-31T16:29:37Z" data-provider="getAdminData" finished-at="2023-01-31T16:29:42Z">
+        <test-method signature="provideRights(java.util.HashMap)[pri:0, instance:com.orange.tests.AdminTest@57576994]" started-at="2023-02-03T15:52:24Z" name="provideRights" data-provider="getAdminData" finished-at="2023-02-03T15:52:29Z" duration-ms="4592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- provideRights -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orange.tests.AdminTest@13c10b87]" name="tearDown" is-config="true" duration-ms="2379" started-at="2023-01-31T16:29:42Z" finished-at="2023-01-31T16:29:44Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orange.tests.AdminTest@57576994]" started-at="2023-02-03T15:52:29Z" name="tearDown" finished-at="2023-02-03T15:52:30Z" duration-ms="1641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
